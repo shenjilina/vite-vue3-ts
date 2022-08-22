@@ -2,8 +2,8 @@
  * @LastEditors: shenjilin
  * @Description: ...
  * @Date: 2022-08-07 23:12:17
- * @LastEditTime: 2022-08-08 00:23:43
- * @Author: shenjilin
+ * @LastEditTime: 2022-08-22 10:29:54
+ * @Author: shenjilin 
  */
 import { defineConfig } from 'vite'
 
