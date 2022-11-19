@@ -1,7 +1,7 @@
 <template>
-  <div>
-    {{ msg }}
-  </div>
+	<div>
+		{{ msg }}
+	</div>
 </template>
 <script setup>
 import { ref } from "vue";

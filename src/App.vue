@@ -1,5 +1,5 @@
 <template>
-  <router-view></router-view>
+	<router-view></router-view>
 </template>
 
 <script setup lang="ts">
@@ -7,5 +7,4 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
