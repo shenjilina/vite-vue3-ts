@@ -2,10 +2,11 @@
  * @LastEditors: shenjilin
  * @Description: ...
  * @Date: 2022-08-07 23:26:20
- * @LastEditTime: 2022-08-07 23:29:31
+ * @LastEditTime: 2023-08-09 17:04:48
  * @Author: shenjilin
  */
-import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
+import type { RouteRecordRaw } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 
 const routes: RouteRecordRaw[] = [
 	{
@@ -28,7 +29,10 @@ const routes: RouteRecordRaw[] = [
 
 const router = createRouter({
 	history: createWebHashHistory(), // createWebHistory 历史路由
-	routes
+	routes,
+	// 是否应该禁止尾部斜杠。默认为假
+	strict: true,
+	scrollBehavior: () => ({ left: 0, top: 0 })
 });
 
 export default router;
